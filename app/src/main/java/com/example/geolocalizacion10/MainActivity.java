@@ -71,4 +71,8 @@ public class MainActivity extends AppCompatActivity {
     public void MyNewFunction(){
 
     }
+
+    public void FunctionDeveloper02(){
+
+    }
 }
