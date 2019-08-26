@@ -69,10 +69,16 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void MyNewFunction(){
-
+        //Funcion Developer 1
+        //Funcion Pluss
     }
 
     public void FunctionDeveloper02(){
         //Cambio en funcion
+        //Developer1
+    }
+
+    public void MyNewFunction2(){
+        //Construccioin...
     }
 }
