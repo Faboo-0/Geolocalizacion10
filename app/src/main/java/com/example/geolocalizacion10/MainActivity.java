@@ -46,26 +46,26 @@ public class MainActivity extends AppCompatActivity {
                 return;
             }
         fusedLocationClient.getLastLocation()
-            .addOnSuccessListener(this, new OnSuccessListener<Location>() {
-                @Override
-                public void onSuccess(Location location) {
-                    // Got last known location. In some rare situations this can be null.
-                    if (location != null) {
+                .addOnSuccessListener(this, new OnSuccessListener<Location>() {
+                    @Override
+                    public void onSuccess(Location location) {
+                        // Got last known location. In some rare situations this can be null.
+                        if (location != null) {
 
-                        Log.e("Latitud -> " + location.getLatitude(),  " | Longitud -> "+ location.getLongitude());
-
-
-                        String dLongitud = Double.toString(location.getLatitude());
-                        String dLatitud = Double.toString(location.getLongitude());
-
-                        sLatitud.setText(dLatitud);
-                        sLongitud.setText(dLongitud);
+                            Log.e("Latitud -> " + location.getLatitude(),  " | Longitud -> "+ location.getLongitude());
 
 
+                            String dLongitud = Double.toString(location.getLatitude());
+                            String dLatitud = Double.toString(location.getLongitude());
 
+                            sLatitud.setText(dLatitud);
+                            sLongitud.setText(dLongitud);
+
+
+
+                        }
                     }
-                }
-            });
+                });
     }
 
     public void MyNewFunction(){
