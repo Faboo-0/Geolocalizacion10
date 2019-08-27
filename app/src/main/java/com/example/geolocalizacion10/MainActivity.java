@@ -84,5 +84,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void MyNewFunction2(){
         //Construccioin...
+
+        //Rogers xd plan h...
+        //Rogers xd plan h... //Rogers xd plan h...
+
+
     }
 }
