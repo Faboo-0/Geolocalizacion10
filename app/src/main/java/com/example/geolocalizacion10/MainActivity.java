@@ -78,6 +78,8 @@ public class MainActivity extends AppCompatActivity {
 
         //Developer2
         //Developer1
+
+        //By Rolando ---
     }
 
     public void MyNewFunction2(){
